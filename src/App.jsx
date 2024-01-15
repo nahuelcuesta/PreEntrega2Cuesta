@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar/NavBar";
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar img = {'./iconos/thempoIcono.png'}/>
       <ItemListContainer title={"Thempo.ar"} />
     </>
   );

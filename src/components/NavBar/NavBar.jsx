@@ -1,15 +1,14 @@
 import React from "react";
-import thempoIcono from "../../assets/iconos/thempoIcono.png";
 import "./NavBar.modules.css";
 import CardWidget from "../CardWidget/CardWidget";
 
-export default function NavBar() {
+export default function NavBar({img}) {
   return (
     <nav className="NavBarContainer">
       <div className="NavBarTitle">
         <img
           style={{ width: "15%" }}
-          src={thempoIcono}
+          src={img}
           alt="Logo de la marca thempo"
         />
         <h1>thempo</h1>
@@ -20,7 +19,7 @@ export default function NavBar() {
           <button>Deco</button>
           <button>Blog</button>
         </div>
-        <CardWidget />
+        <CardWidget img={'./iconos/shopIcono.png'} />
       </div>
     </nav>
   );

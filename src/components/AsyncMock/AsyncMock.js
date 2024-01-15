@@ -4,16 +4,16 @@ const products = [
         name: 'Thempo Gris Topo',
         price: 13900,
         category: 'clasic',
-        img: './img/thempo-rosa-pastel.webp' ,
+        img: './productos/thempo-gris-topo.webp' ,
         stock: '10',
         description: 'lorem ssdnf uiwshndfiabf uifhdif dioin'
     },
     {
         id: 2,
-        name: 'Thempo Gris Luna',
+        name: 'Thempo Gris Cemento',
         price: 13900,
         category: 'clasic',
-        img: '',
+        img: './productos/thempo-gris-cemento.webp',
         stock: '20',
         description: 'lorem smnikno id isdhfiojnasdijofnd i'
     },
@@ -22,17 +22,17 @@ const products = [
         name: 'Thempo Rosa Pastel',
         price: 14900,
         category: 'color',
-        img: '',
+        img: './productos/thempo-rosa-pastel.webp',
         stock: '30',
         description: 'klmndkbnsjk jkdsnvikds idshfd ifsdaif jijh'
     }
     ,
     {
         id: 4,
-        name: 'Thempo Sky Celeste pastel',
+        name: 'Thempo Celeste pastel',
         price: 14900,
         category: 'color',
-        img: '',
+        img: './productos/thempo-celeste-pastel.webp',
         stock: '30',
         description: 'klmndkbnsjk jkdsnvikds idshfd ifsdaif jijh'
     }
@@ -42,7 +42,7 @@ const products = [
         name: 'Thempo beige',
         price: 14900,
         category: 'color',
-        img: '',
+        img: './productos/thempo-beige.webp',
         stock: '30',
         description: 'klmndkbnsjk jkdsnvikds idshfd ifsdaif jijh'
     }
@@ -52,7 +52,7 @@ const products = [
         name: 'Thempo Verde militar',
         price: 14900,
         category: 'color',
-        img: '',
+        img: './productos/thempo-verde-militar.webp',
         stock: '30',
         description: 'klmndkbnsjk jkdsnvikds idshfd ifsdaif jijh'
     }

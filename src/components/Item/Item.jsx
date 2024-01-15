@@ -1,13 +1,13 @@
-const Item = ({product})=>{
+import './item.modules.css'
 
-    console.log(product)
-return (
-    <div>
-    <img src={product.img} alt={product.name} />
-    <h1>{product.name}</h1>
-    <p>{product.price}</p>
+const Item = ({ id, name, price, category, img, stock }) => {
+  console.log();
+  return (
+    <div className="itemContainer">
+      <img src={img} alt={name} />
+      <h1>{name}</h1>
+      <p>$ {price}</p>
     </div>
-)
-
-}
+  );
+};
 export default Item;
