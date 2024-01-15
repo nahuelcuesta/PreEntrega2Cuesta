@@ -15,8 +15,8 @@ export default function NavBar({img}) {
       </div>
       <div className="NavBarButtonsContainer">
         <div className="NavBarButtons">
-          <button>Relojes</button>
-          <button>Deco</button>
+          <button>Classic</button>
+          <button>Color</button>
           <button>Blog</button>
         </div>
         <CardWidget img={'./iconos/shopIcono.png'} />

@@ -1,9 +1,11 @@
 import Item from "../Item/Item";
+import './ItemList.modules.css'
+
 
 
 const ItemList = ({ products }) => {
     return (
-        <div>
+        <div className="ItemListContainer">
         {
             products.map((product) => {
                 return (

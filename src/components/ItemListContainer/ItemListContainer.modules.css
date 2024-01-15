@@ -1,9 +1,0 @@
-.TileContainer{
-display: flex;
-justify-content: center;
-}
-.TileContainer p{
-    font-size: larger;
-    font-weight: 900;
-    margin: 1rem;
-}
