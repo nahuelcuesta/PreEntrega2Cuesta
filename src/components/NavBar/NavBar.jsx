@@ -8,12 +8,14 @@ export default function NavBar({img}) {
     <nav className="NavBarContainer">
       <div className="NavBarTitle">
         <Link to={'/'}><img
-          style={{ width: "15%" }}
+          /* style={{ width: "15%" }} */
           src={import.meta.env.BASE_URL + img}
           alt="Logo de la marca thempo"
-        /> </Link>
-        
+        /> 
         <h1>thempo</h1>
+        </Link>
+        
+        
       </div>
       <div className="NavBarButtonsContainer">
         <div className="NavBarButtons">

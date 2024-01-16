@@ -8,8 +8,8 @@ const Item = ({ id, name, price, category, img, stock }) => {
       <img src={import.meta.env.BASE_URL + img} alt={name} />
       <h1>{name}</h1>
       <p>Categoria: {category}</p>
-      <p>$ {price}</p>
-  <Link to={`/detail/${id}`}>Ver Detalle</Link>
+      <p className='precio'>$ {price}</p>
+      <Link to={`/detail/${id}`}>Ver Detalle</Link>
     </div>
   );
 };

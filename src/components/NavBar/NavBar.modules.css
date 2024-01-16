@@ -11,10 +11,13 @@
     border-radius: .5rem;
     box-shadow: .2rem .2rem 0.2rem #ccc,
         -.2rem -.2rem 0.2rem #f6f6f6;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);   
 }
-
-.NavBarTitle {
+.NavBarTitle{
+    width: 100%;
+    padding: .2rem;
+}
+.NavBarTitle a {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -26,6 +29,11 @@
     box-shadow: .2rem .2rem 0.2rem #ccc,
         -.2rem -.2rem 0.2rem #fffefe;
     background-color: rgb(246, 246, 246);
+    text-decoration: none;
+    color: black;   
+}
+.NavBarTitle a img {
+    width: 10%;
 }
 
 .NavBarButtonsContainer {
@@ -44,7 +52,7 @@
     flex-wrap: nowrap;
 }
 
-.NavBarButtons button {
+.NavBarButtons a {
     width: 60px;
     margin: 0.2rem;
     padding: 0.2rem;
@@ -57,4 +65,11 @@
     font-weight: 700;
     box-shadow: .2rem .2rem 0.2rem #ccc,
         -.2rem -.2rem 0.2rem #fffefe;
+        text-decoration: none;
+        color: black;
+}
+.NavBarButtons a:hover{
+    background-color: rgb(230, 230, 230);
+    box-shadow: .2rem .2rem 0.2rem  #fffefe,
+        -.2rem -.2rem 0.2rem #ccc;
 }

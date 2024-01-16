@@ -11,7 +11,7 @@ function App() {
         <NavBar img={"./iconos/thempoIcono.png"} />
         <Routes>
           <Route path="/" element={<ItemListContainer title={"Listado de productos"} />}/>
-          <Route path="/category/:categoryId" element={<ItemListContainer title={"Listado de productos filtrados: "} />}/>
+          <Route path="/category/:categoryId" element={<ItemListContainer title={"Categoria: "} />}/>
           <Route path="/detail/:productId" element={<ItemDetailContainer />}/>  
           <Route path="*" element={<h1>ERROR 404</h1>}/>        
         </Routes>
