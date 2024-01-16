@@ -1,25 +1,27 @@
 import React from "react";
 import "./NavBar.modules.css";
 import CardWidget from "../CardWidget/CardWidget";
+import { Link } from "react-router-dom";
 
 export default function NavBar({img}) {
   return (
     <nav className="NavBarContainer">
       <div className="NavBarTitle">
-        <img
+        <Link to={'/'}><img
           style={{ width: "15%" }}
-          src={img}
+          src={import.meta.env.BASE_URL + img}
           alt="Logo de la marca thempo"
-        />
+        /> </Link>
+        
         <h1>thempo</h1>
       </div>
       <div className="NavBarButtonsContainer">
         <div className="NavBarButtons">
-          <button>Classic</button>
-          <button>Color</button>
-          <button>Blog</button>
+          <Link to={'/category/clasic'}>Classic</Link>
+          <Link to={'/category/color'}>Color</Link>
+          <Link to={'/'}>Todos</Link>
         </div>
-        <CardWidget img={'./iconos/shopIcono.png'} />
+        <CardWidget img={import.meta.env.BASE_URL + './iconos/shopIcono.png'} />
       </div>
     </nav>
   );
