@@ -1,5 +1,6 @@
 .ItemListContainer{
     display: flex;
+    width: 95%;
     flex-wrap: wrap;
     justify-content: center;
     border: 2px solid rgb(240, 240, 240);
